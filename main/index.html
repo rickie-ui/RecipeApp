@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- or -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Custom script -->
+    <script defer src="../scripts/app.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="../css/master.css" />
+    <title>Food Recipe App</title>
+  </head>
+  <body>
+    <div class="mobile-container">
+      <header>
+        <input type="search" id="search-term" placeholder="Search..." />
+        <button id="search">
+          <i class="fas fa-search"></i>
+        </button>
+      </header>
+      <h3>Favourite Meals</h3>
+      <div class="fav-container">
+        <ul class="fav-meals" id="fav-meals"></ul>
+      </div>
+      <div class="meals" id="meals"></div>
+    </div>
+
+    <div class="popup-container" id="meal-popup">
+      <div class="popup">
+        <button id="close-popup" class="close-popup">
+          <i class="fa fa-close"></i>
+        </button>
+        <div class="meal-info" id="meal-info">
+         
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
